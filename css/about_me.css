@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
   font-weight: 400;
@@ -29,7 +29,7 @@ p {
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
-  font-family: "Quicksand", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: rgb(255, 255, 255);
   font-weight: 600;
 }
@@ -195,7 +195,7 @@ a:hover {
 }
 
 .main-nav .header-top-socials a {
-  text-transform: lowercase;
+  text-transform: none;
   letter-spacing: 1px;
   font-size: 18px;
   padding: 20px 6px;
@@ -203,7 +203,7 @@ a:hover {
 
 .navbar-nav .nav-link {
   padding: 20px 15px !important;
-  text-transform: lowercase;
+  text-transform: none;
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: 700;
