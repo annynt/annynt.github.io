@@ -20,7 +20,7 @@ body {
   letter-spacing: 0.166667px;
   line-height: 1.7em;
   color: #ffffff;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(12, 12, 12);
 }
 
 p {
@@ -79,7 +79,7 @@ h6, .h6 {
 .btn {
   padding: 18px 38px;
   border: 2px solid transparent;
-  text-transform: lowercase;
+  text-transform: normal;
   border-radius: 0px;
   font-size: 14px;
   line-height: 14px;
@@ -94,6 +94,7 @@ h6, .h6 {
 }
 
 .btn-main {
+
   background: #ff659d;
   color: #fff;
 }
