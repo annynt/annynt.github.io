@@ -20,7 +20,7 @@ body {
   letter-spacing: 0.166667px;
   line-height: 1.7em;
   color: #ffffff;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(12, 12, 12);
 }
 
 p {
@@ -81,7 +81,7 @@ h6, .h6 {
 .btn {
   padding: 18px 38px;
   border: 2px solid transparent;
-  text-transform: lowercase;
+  text-transform: normal;
   border-radius: 0px;
   font-size: 14px;
   line-height: 14px;
@@ -198,7 +198,7 @@ a:hover {
 }
 
 .main-nav .header-top-socials a {
-  text-transform: lowercase;
+  text-transform: normal;
   letter-spacing: 1px;
   font-size: 18px;
   padding: 20px 6px;
@@ -206,7 +206,7 @@ a:hover {
 
 .navbar-nav .nav-link {
   padding: 20px 15px !important;
-  text-transform: lowercase;
+  text-transform: normal;
   font-size: 18px;
   letter-spacing: 1px;
   font-weight: 700;
@@ -231,7 +231,7 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
   padding-bottom: 10px;
   border-bottom: 1px solid #27243e;
   color: #fff;
-  text-transform: lowercase;
+  text-transform: normal;
 }
 
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {

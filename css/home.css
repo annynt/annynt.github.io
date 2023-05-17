@@ -20,7 +20,7 @@ body {
   letter-spacing: 0.166667px;
   line-height: 1.7em;
   color: #ffffff;
-  background-color: rgb(29, 29, 29);
+  background-color: rgb(12, 12, 12);
 }
 
 p {
@@ -97,7 +97,7 @@ h6, .h6 {
 }
 
 .btn-main {
-  background: #ff659d;
+  background: #ff739e;
   color: #fff;
 }
 
@@ -112,7 +112,7 @@ h6, .h6 {
 }
 
 .btn-black:hover {
-  background: #ff659d;
+  background: #ff739e;
   color: #fff;
 }
 
@@ -133,13 +133,13 @@ a {
 }
 
 a:hover {
-  color: #ff77b4;
+  color: #ff739e;
   text-decoration: none;
   outline: none;
 }
 
 .bg-primary {
-  background: #ff659d !important;
+  background: #ff739e !important;
 }
 
 .bg-secondary {
@@ -151,7 +151,7 @@ a:hover {
 }
 
 .text-color {
-  color: #ff659d;
+  color: #ff739e;
 }
 
 .page-title h1 {
@@ -207,7 +207,7 @@ a:hover {
   padding: 20px 15px !important;
   font-size: 18px;
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 ul.dropdown-menu {
@@ -232,7 +232,7 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
 }
 
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
-  color: #ff659d;
+  color: #ff739e;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {

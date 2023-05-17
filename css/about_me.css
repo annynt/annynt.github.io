@@ -228,7 +228,7 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
   padding-bottom: 10px;
   border-bottom: 1px solid #27243e;
   color: #fff;
-  text-transform: lowercase;
+  text-transform: normal;
 }
 
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
