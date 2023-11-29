@@ -7,7 +7,7 @@ VERSION:	1.0
 /*------------------------------------------------------------------
 [TABLE OF CONTENTS]
 -------------------------------------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Qui'https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap'cksand:wght@300;400;500;600;700&display=swap");
 html {
   overflow-x: hidden;
 }
@@ -16,15 +16,16 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 0.166667px;
   line-height: 1.7em;
-  color: #ffffff;
-  background-color: rgb(12, 12, 12);
+  color: #000000;
+  background-color: rgb(255, 255, 255);
 }
 
 p {
-  color: #ffffff;
+  color: #000000;
+  spacing:
 }
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -41,20 +42,22 @@ h1, .h1 {
 h2, .h2 {
   font-size: 56px;
   line-height: 52px;
-  color: #ffffff;
-  font-family: "akira", sans-serif;
+  color: #000000;
+  font-family: "Poppins extrabold", sans-serif;
+ 
 }
 
 h3, .h3 {
-  font-size: 24px;
+  font-size: 16px;
   line-height: 34px;
-  color: #ff659d
+  color: #ffffff;
+  font-family: "Poppins light"
 }
 
 h4, .h4 {
   font-size: 20px;
   line-height: 30px;
-  color: #ff659d
+  color: #ed1e71
 }
 
 h5, .h5 {
@@ -65,7 +68,11 @@ h5, .h5 {
 h6, .h6 {
   font-size: 14px;
 }
-
+.description .spacing {
+  font-size: 18;
+  display: block;
+  margin-top: 20px;
+}
 .text-sm {
   font-size: 14px;
 }
@@ -111,7 +118,7 @@ h6, .h6 {
 }
 
 .btn-black:hover {
-  background: #ff659d;
+  background: #ed1e71;
   color: #fff;
 }
 
@@ -127,18 +134,18 @@ h6, .h6 {
 }
 
 a {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   transition: all .25s ease;
 }
 
 a:hover {
-  color: #ff659d;
+  color: #ed1e71;
   text-decoration: none;
   outline: none;
 }
 
 .bg-primary {
-  background: #f44336 !important;
+  background: #ed1e71 !important;
 }
 
 .bg-secondary {
@@ -150,7 +157,7 @@ a:hover {
 }
 
 .text-color {
-  color: #f44336;
+  color: #ed1e71;
 }
 
 .page-title h1 {
@@ -209,7 +216,7 @@ a:hover {
   text-transform: normal;
   font-size: 18px;
   letter-spacing: 1px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 ul.dropdown-menu {
@@ -229,17 +236,17 @@ ul.dropdown-menu > li > a, .navbar ul ul ul.dropdown-menu li .nav-link {
   transition: all .3s ease-in-out;
   padding-top: 10px;
   padding-bottom: 10px;
-  border-bottom: 1px solid #27243e;
-  color: #fff;
+  border-bottom: 1px solid #000000;
+  color: #ffffff;
   text-transform: normal;
 }
 
 ul.dropdown-menu > li > a:hover, .navbar ul ul ul.dropdown-menu li .nav-link:hover {
-  color: #ff659d;
+  color: #ed1e71;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   background-color: transparent;
 }
